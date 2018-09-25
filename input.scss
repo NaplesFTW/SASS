@@ -1,0 +1,32 @@
+$myFont: Courier, monospace; //#1
+$myColor: blue;
+$myBackground: linear-gradient(#e66465, #9198e5);
+
+$myLinkFont: Impact, Charcoal, sans-serif;//#2
+$myLinkFont2: "Comic Sans MS", cursive, sans-serif;
+$myLinkColor: green;
+
+@import 'button';
+
+body{ //#1
+  font: 100% $myFont;
+  color: $myColor;
+}
+
+html{ //#1
+  background: $myBackground;
+}
+
+nav{ //#2
+  ul{
+    font-family: $myLinkFont;
+  }
+
+  .link{
+    font-family: $myLinkFont2;
+  }
+
+  a{
+    color: green;
+  }
+}

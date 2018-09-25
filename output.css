@@ -1,0 +1,26 @@
+button {
+  background-color: #9198e5;
+  color: black;
+  padding: 16px 32px;
+}
+
+body {
+  font: 100% Courier, monospace;
+  color: blue;
+}
+
+html {
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+nav ul {
+  font-family: Impact, Charcoal, sans-serif;
+}
+nav .link {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+nav a {
+  color: green;
+}
+
+/*# sourceMappingURL=output.css.map */
