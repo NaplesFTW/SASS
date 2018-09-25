@@ -1,12 +1,12 @@
-$myFont: Courier, monospace; //#1
+$myFont: Courier, monospace; //#1 Variables
 $myColor: blue;
 $myBackground: linear-gradient(#e66465, #9198e5);
 
-$myLinkFont: Impact, Charcoal, sans-serif;//#2
+$myLinkFont: Impact, Charcoal, sans-serif;//#2 nesting
 $myLinkFont2: "Comic Sans MS", cursive, sans-serif;
 $myLinkColor: green;
 
-@import 'button';
+@import 'button'; // #3
 
 body{ //#1
   font: 100% $myFont;
