@@ -1,5 +1,5 @@
 $height: 4px*4px;
-$width: 16px+16px;
+$width: $height+$height;
 
 button { //#3 import
   background-color: #9198e5;
